@@ -13,8 +13,4 @@ cache:
     - "node_modules"
 
 script:
-<<<<<<< HEAD
     - "npm test"
-=======
-    - "echo hello"
->>>>>>> 9551b9f5b2f785ccd5bbd88a3601b94de8cb7557
