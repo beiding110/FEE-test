@@ -5,6 +5,9 @@ language: node_js
 node_js:
     - "10.14.2"
 
+notifications:
+  webhooks: https://coveralls.io/webhook?repo_token=qlFs2tTsYawybdFiaR9zWv4zj7hQM6NBn
+
 install:
   - npm install
 
@@ -17,3 +20,9 @@ script:
 
 after_script:
     - "npm coveralls"
+
+mail:
+  recipients:
+    - beiding110@gmail.com
+    on_success: always
+    on_failure: always
