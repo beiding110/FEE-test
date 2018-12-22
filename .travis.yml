@@ -19,10 +19,5 @@ script:
     - "npm test"
 
 after_script:
+    - "npm install coveralls"
     - "npm coveralls"
-
-mail:
-  recipients:
-    - beiding110@gmail.com
-    on_success: always
-    on_failure: always
