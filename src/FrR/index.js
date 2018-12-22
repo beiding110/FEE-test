@@ -12,3 +12,5 @@ FrR.prototype = {
     return output
   }
 }
+
+export default FrR
