@@ -1,5 +1,7 @@
 # spa(the FEE test)
 
+[![Build Status](https://travis-ci.org/beiding110/FEE-test.svg?branch=master)](https://travis-ci.org/beiding110/FEE-test)
+
 ## Build Setup
 
 ``` bash
