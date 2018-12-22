@@ -20,4 +20,4 @@ script:
 
 after_script:
     - "npm install coveralls"
-    - "npm coveralls"
+    - "npm run coveralls"
